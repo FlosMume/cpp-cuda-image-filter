@@ -68,7 +68,7 @@ Test project /path/to/build
 A helper script validates your CUDA environment and runs a quick benchmark.
 
 ```bash
-./check_cuda_starter_status.sh
+./check_cuda_image_filter_status.sh
 ```
 
 Typical output:
