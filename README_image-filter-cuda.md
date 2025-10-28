@@ -37,7 +37,7 @@ This project illustrates key GPU concepts—**memory hierarchy**, **thread coope
 ```
 cpp-cuda-image-filter/
  ├── src/
- │    └── conv2d_shared.cu         # Main CUDA implementation
+ │    └── image_filter.cu         # Main CUDA implementation
  ├── CMakeLists.txt                # Build configuration
  ├── README.md                     # Documentation
  ├── .gitignore                    # Ignore build artifacts
