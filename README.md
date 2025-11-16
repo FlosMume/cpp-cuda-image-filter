@@ -158,9 +158,43 @@ It will:
 
 ---
 
-# 🛠 VS Code Integration
+---
 
-Example configuration:
+# ⚙️ Build & Run
+
+### Build
+```bash
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+cmake --build build -j
+```
+
+### Run
+```bash
+./build/conv2d_shared
+```
+
+Expected output:
+```
+Center value after blur: 0.040000 (expected ~0.04)
+Success!
+```
+
+---
+
+# 🧪 CTest
+```bash
+cd build
+ctest
+```
+
+---
+
+# ⚡ Status Check
+```bash
+./check_cuda_image_filter_status.sh
+```
+
+# 🛠 VS Code Integration
 ```json
 {
   "name": "Run image_filter",
